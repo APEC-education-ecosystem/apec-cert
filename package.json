@@ -1,0 +1,26 @@
+{
+  "name": "apec-certificate-program",
+  "version": "0.1.0",
+  "description": "APEC Certificate Program on Solana",
+  "license": "ISC",
+  "scripts": {
+    "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
+    "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.32.1",
+    "@noble/hashes": "2.0.1",
+    "@solana/spl-token": "^0.4.14",
+    "merkletreejs": "^0.6.0"
+  },
+  "devDependencies": {
+    "chai": "^6.2.0",
+    "mocha": "^11.7.4",
+    "ts-mocha": "^11.1.0",
+    "@types/bn.js": "^5.2.0",
+    "@types/chai": "^5.2.3",
+    "@types/mocha": "^10.0.10",
+    "typescript": "^5.9.3",
+    "prettier": "^3.6.2"
+  }
+}
